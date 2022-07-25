@@ -1,0 +1,52 @@
+html,
+body {
+  padding: 0;
+  margin: 0;
+  height: 100vh;
+}
+h1 {
+  margin: 0;
+  text-align: center;
+  color: red;
+  background-color: lightblue;
+  padding: 7px 0;
+}
+.main-container {
+  display: flex;
+  height: calc(100% - 60px);
+}
+.sec-list {
+  flex: 3;
+  background-color: burlywood;
+  border-radius: 6px;
+  padding: 5px;
+}
+.sec-form {
+  flex: 2;
+  border: 1px solid grey;
+  border-radius: 6px;
+  background-color: grey;
+  padding: 5px;
+}
+.my-control {
+  display: block;
+  margin-bottom: 7px;
+}
+.my-control label {
+  display: inline-block;
+  width: 70px;
+  text-align: right;
+  margin-right: 5px;
+}
+.my-control input,
+.my-control select,
+.my-control textarea {
+  display: inline-block;
+  padding: 3px 10px;
+  width: auto;
+}
+#iImportant {
+  font-size: 30px;
+  color: red;
+  cursor: pointer;
+}

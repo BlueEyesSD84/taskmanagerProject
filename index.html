@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task Manager Project</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css">
+    <link rel="stylesheet" href="./styles/app.css">
+</head>
+<body>
+<h1>Task Manager</h1>
+<main class="main-container">
+    <section class="sec-list">
+        <h3>List</h3>
+    </section>
+    <section class="sec-form">
+        <h3>Task Information</h3>
+         <div class="my-control">
+            <label>Important</label>
+            <i id="iImportant" class="fa-regular fa-star"></i>
+        </div>
+        <div class="my-control">
+            <label>Title</label>
+            <input type="text">
+        </div>
+        <div class="my-control">
+            <label>Due Date</label>
+            <input type="datetime-local">
+        </div>
+        <div class="my-control">
+            <label>Description</label>
+            <textarea rows="3"></textarea>
+        </div>
+        <div class="my-control">
+            <label>Color</label>
+            <input type="color">
+        </div>
+        <div class="my-control">
+            <label>Emjoi</label>
+            <input type="text">
+        </div>
+        <div class="my-control">
+            <label>Locaion</label>
+            <input type="text">
+        </div>
+        <div class="my-control">
+            <label>Status</label>
+            <select>
+                <option>New</option>
+                <option>In Progress</option>
+                <option>Blocked</option>
+                <option>Paused</option>
+                <option>Another One</option>
+                <option>Completed</option>
+            </select>
+        </div>
+        <div class="my-control">
+            <label>Notification</label>
+            <input type="checkbox">
+        </div>
+    </section>
+</main>
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="./scripts/main.js"></script>
+</body>
+</html>
+
+<!--TASK REQUIREMENTS
+    0. important
+    1.title
+    2. dueDate
+    3. description
+    4. color
+    5. emoji
+    6. location
+    7. status
+    8. notification
+
+-->
