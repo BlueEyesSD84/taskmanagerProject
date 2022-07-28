@@ -3,13 +3,22 @@ body {
   padding: 0;
   margin: 0;
   height: 100vh;
+  background-image: url(https://cdn.pixabay.com/photo/2017/08/30/01/05/milky-way-2695569__480.jpg);
 }
+.task{
+  display: flex;
+  }
 h1 {
   margin: 0;
   text-align: center;
-  color: red;
+  color: blue;
   background-color: lightblue;
   padding: 7px 0;
+  text-decoration: underline;
+}
+H3{
+  color: #e8dbe9;
+  text-decoration: underline;
 }
 .main-container {
   display: flex;
@@ -17,15 +26,13 @@ h1 {
 }
 .sec-list {
   flex: 3;
-  background-color: burlywood;
   border-radius: 6px;
   padding: 5px;
 }
 .sec-form {
-  flex: 2;
+  flex: 1;
   border: 1px solid grey;
   border-radius: 6px;
-  background-color: grey;
   padding: 5px;
 }
 .my-control {
@@ -37,6 +44,7 @@ h1 {
   width: 70px;
   text-align: right;
   margin-right: 5px;
+  color: white;
 }
 .my-control input,
 .my-control select,
@@ -49,4 +57,32 @@ h1 {
   font-size: 30px;
   color: red;
   cursor: pointer;
+}
+.task {
+  display: flex;
+  border: 1px solid #9eabc7;
+  border-radius: 6px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  background-color: gray;
+  align-items: center;
+}
+
+.task i {
+  flex: 1;
+  font-size: 30px;
+  color: white;
+}
+
+.task  .info {
+  flex: 6;
+  color:white;
+}
+
+.task label {
+  flex: 1;
+  color: white;
+}
+.save-button{
+  background-color: green;
 }
